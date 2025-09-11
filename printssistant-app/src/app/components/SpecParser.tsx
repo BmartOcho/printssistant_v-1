@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import ChecklistView from './ChecklistView';
 
 export default function SpecParser() {
   const [content, setContent] = useState('');
@@ -45,10 +46,14 @@ export default function SpecParser() {
       </button>
 
       {specs && (
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-          <h3 className="font-semibold mb-2">Extracted Specifications:</h3>
-          <pre className="text-sm">{JSON.stringify(specs, null, 2)}</pre>
-        </div>
+        <>
+          <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+            <h3 className="font-semibold mb-2">Extracted Specifications:</h3>
+            <pre className="text-sm overflow-x-auto">{JSON.stringify(specs, null, 2)}</pre>
+          </div>
+          
+          <ChecklistView specs={specs} />
+        </>
       )}
     </div>
   );
