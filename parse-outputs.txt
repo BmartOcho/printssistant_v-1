@@ -1,0 +1,136 @@
+Extracted Specifications:
+{
+  "jobType": "business card",
+  "dimensions": {
+    "width": 3.5,
+    "height": 2,
+    "unit": "in"
+  },
+  "quantity": 2500,
+  "colorMode": "CMYK",
+  "bleed": {
+    "top": 0.125,
+    "bottom": 0.125,
+    "left": 0.125,
+    "right": 0.125,
+    "unit": "in"
+  },
+  "resolution": 300,
+  "fileFormat": "PDF",
+  "specialRequirements": [
+    "16pt cardstock with matte finish",
+    "Rounded corners",
+    "Spot UV on the logo only"
+  ],
+  "deadline": "next Friday"
+}
+
+=================================================================================================
+
+Extracted Specifications:
+{
+  "jobType": "Tri-fold brochure",
+  "dimensions": {
+    "width": 8.5,
+    "height": 11,
+    "unit": "in"
+  },
+  "quantity": 5000,
+  "colorMode": "CMYK",
+  "bleed": {
+    "top": 0.125,
+    "bottom": 0.125,
+    "left": 0.125,
+    "right": 0.125,
+    "unit": "in"
+  },
+  "resolution": 300,
+  "fileFormat": "PDF",
+  "specialRequirements": [
+    "100lb gloss text",
+    "Aqueous coating on both sides",
+    "Include crop marks"
+  ],
+  "deadline": "end of month"
+}
+
+
+=================================================================================================
+
+
+Extracted Specifications:
+{
+  "jobType": "poster",
+  "dimensions": {
+    "width": 24,
+    "height": 36,
+    "unit": "inch"
+  },
+  "quantity": 50,
+  "colorMode": "CMYK",
+  "bleed": {
+    "top": 0.25,
+    "bottom": 0.25,
+    "left": 0.25,
+    "right": 0.25,
+    "unit": "inch"
+  },
+  "resolution": 300,
+  "fileFormat": "PDF",
+  "specialRequirements": [
+    "Matte finish",
+    "100# cover stock"
+  ],
+  "deadline": null
+}
+
+
+==========================================================================================
+
+
+Extracted Specifications:
+{
+  "jobType": [
+    "wedding invitation suite",
+    "RSVP cards",
+    "envelopes"
+  ],
+  "dimensions": [
+    {
+      "width": 5,
+      "height": 7,
+      "unit": "in"
+    },
+    {
+      "width": 3.5,
+      "height": 5,
+      "unit": "in"
+    },
+    {
+      "type": "A1 size for RSVP"
+    }
+  ],
+  "quantity": 150,
+  "colorMode": "Letterpress with gold foil accents",
+  "bleed": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0,
+    "unit": "not applicable for letterpress"
+  },
+  "resolution": "not specified",
+  "fileFormat": "Adobe Illustrator",
+  "specialRequirements": [
+    "120lb cotton paper, pearl white",
+    "Gold foil accents",
+    "Return address printing in gold foil",
+    "Guest addressing in calligraphy style font",
+    "Wax seal on outer envelope",
+    "Silk ribbon belly band",
+    "Need proofs before final printing"
+  ],
+  "deadline": "April 15th"
+}
+
+=====================================================================================================
