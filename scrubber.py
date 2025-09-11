@@ -78,7 +78,7 @@ def _is_placeholder(value: Optional[str]) -> bool:
 
 def _word_like_name(token: str) -> bool:
     # A simple heuristic to generate capitalized name-like tokens when preserving format
-    return token and token[0].isupper()
+    return bool(token) and token[0].isupper()
 
 
 def _capitalize_like(token_len: int) -> str:
