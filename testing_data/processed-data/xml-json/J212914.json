@@ -1,0 +1,32 @@
+Extracted Specifications:
+{
+  "jobType": "Banner Stand",
+  "dimensions": {
+    "width": 33,
+    "height": 84,
+    "unit": "in"
+  },
+  "quantity": 1,
+  "colorMode": "CMYK",
+  "bleed": {
+    "top": 0.125,
+    "bottom": 0.125,
+    "left": 0.75,
+    "right": 0.75,
+    "unit": "in"
+  },
+  "resolution": "Not specified",
+  "fileFormat": "PDF",
+  "specialRequirements": [
+    "Printed CMYK x 1 side on Retractable Banner",
+    "Proof: PDF via email",
+    "Finishing: Install in Weekender Hardware",
+    "Artwork: Print Ready Files Furnished",
+    "Material: 10oz. Natura Block Out Matte Banner",
+    "Machine: HP Latex 800/570",
+    "Finishing: CNC Finishing Square",
+    "Zund Perimeter Cut",
+    "Banner Stand: Weekender Banner Stand"
+  ],
+  "deadline": "2025-08-08T00:49:00.0000000Z"
+}
