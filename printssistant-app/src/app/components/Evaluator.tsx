@@ -19,73 +19,176 @@ export default function Evaluator() {
   const loadTestData = async () => {
     try {
       const response = await fetch('/api/load-test-data');
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const data = await response.json();
-      setTestData(data.testData);
+      
+      if (data.error) {
+        alert(data.error);
+        return;
+      }
+      
+      if (data.testData && data.testData.length > 0) {
+        setTestData(data.testData);
+        alert(`Successfully loaded ${data.testData.length} test cases`);
+      } else {
+        alert('No test data found. Please check that testing-data.json exists.');
+      }
     } catch (error) {
       console.error('Error loading test data:', error);
+      alert('Failed to load test data. Please check the console for details.');
     }
   };
 
   const runSingleTest = async (testCase: any) => {
-    // Call your enhanced parser
-    const response = await fetch('/api/parse-enhanced', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ 
-        content: testCase.emailContent, 
-        type: 'email',
-        useTrainingData: true 
-      }),
-    });
-    
-    const data = await response.json();
-    return data.specs;
+    try {
+      const response = await fetch('/api/parse-enhanced', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          content: testCase.emailContent, 
+          type: 'email',
+          useTrainingData: true,
+          useFineTuned: true  // Use fine-tuned model
+        }),
+      });
+      
+      if (!response.ok) {
+        console.error('API response not OK:', response.status);
+        return null;
+      }
+      
+      const data = await response.json();
+      
+      if (data.error) {
+        console.error('API returned error:', data.error);
+        return null;
+      }
+      
+      return data.specs;
+    } catch (error) {
+      console.error('Error calling parse API:', error);
+      return null;
+    }
   };
 
   const calculateAccuracy = (expected: any, actual: any): { accuracy: number; errors: string[] } => {
     const errors: string[] = [];
     let correctFields = 0;
-    const totalFields = 10; // Adjust based on your fields
+    const totalFields = 10;
+
+    // Check if actual is null or undefined
+    if (!actual) {
+      errors.push('Failed to parse email - no AI response received');
+      return { accuracy: 0, errors };
+    }
 
     // Check job type
-    if (expected.jobType?.toLowerCase() === actual.jobType?.toLowerCase()) {
-      correctFields++;
-    } else {
-      errors.push(`Job Type: Expected "${expected.jobType}", got "${actual.jobType}"`);
+    if (expected.jobType && actual.jobType) {
+      if (expected.jobType.toLowerCase() === actual.jobType.toLowerCase()) {
+        correctFields++;
+      } else {
+        errors.push(`Job Type: Expected "${expected.jobType}", got "${actual.jobType}"`);
+      }
+    } else if (expected.jobType) {
+      errors.push(`Job Type: Expected "${expected.jobType}", got nothing`);
     }
 
     // Check dimensions
-    if (expected.dimensions?.width === actual.dimensions?.width && 
-        expected.dimensions?.height === actual.dimensions?.height) {
-      correctFields++;
+    if (expected.dimensions && actual.dimensions) {
+      if (expected.dimensions.width === actual.dimensions.width && 
+          expected.dimensions.height === actual.dimensions.height) {
+        correctFields++;
+      } else {
+        errors.push(`Dimensions: Expected ${expected.dimensions.width}x${expected.dimensions.height}, got ${actual.dimensions?.width}x${actual.dimensions?.height}`);
+      }
     } else {
-      errors.push(`Dimensions: Mismatch`);
+      errors.push(`Dimensions: Missing or incomplete`);
     }
 
-    // Check quantity (with tolerance)
-    const expectedQty = parseInt(expected.quantity);
-    const actualQty = parseInt(actual.quantity);
-    if (Math.abs(expectedQty - actualQty) < 10) {
-      correctFields++;
-    } else {
-      errors.push(`Quantity: Expected ${expectedQty}, got ${actualQty}`);
+    // Check quantity
+    if (expected.quantity !== undefined && actual.quantity !== undefined) {
+      const expectedQty = parseInt(expected.quantity);
+      const actualQty = parseInt(actual.quantity);
+      if (Math.abs(expectedQty - actualQty) < 10) {
+        correctFields++;
+      } else {
+        errors.push(`Quantity: Expected ${expectedQty}, got ${actualQty}`);
+      }
     }
 
     // Check color mode
-    if (expected.colorMode === actual.colorMode) {
-      correctFields++;
-    } else {
-      errors.push(`Color Mode: Expected "${expected.colorMode}", got "${actual.colorMode}"`);
+    if (expected.colorMode && actual.colorMode) {
+      if (expected.colorMode === actual.colorMode) {
+        correctFields++;
+      } else {
+        errors.push(`Color Mode: Expected "${expected.colorMode}", got "${actual.colorMode}"`);
+      }
     }
 
     // Check resolution
-    if (expected.resolution === actual.resolution) {
-      correctFields++;
-    } else {
-      errors.push(`Resolution: Expected "${expected.resolution}", got "${actual.resolution}"`);
+    if (expected.resolution && actual.resolution) {
+      if (expected.resolution === actual.resolution) {
+        correctFields++;
+      } else {
+        errors.push(`Resolution: Expected "${expected.resolution}", got "${actual.resolution}"`);
+      }
     }
 
-    // Add more field checks...
+    // Check file format
+    if (expected.fileFormat && actual.fileFormat) {
+      if (expected.fileFormat === actual.fileFormat) {
+        correctFields++;
+      } else {
+        errors.push(`File Format: Expected "${expected.fileFormat}", got "${actual.fileFormat}"`);
+      }
+    }
+
+    // Check paper stock
+    if (expected.paperStock && actual.paperStock) {
+      if (expected.paperStock.toLowerCase() === actual.paperStock.toLowerCase()) {
+        correctFields++;
+      } else {
+        errors.push(`Paper Stock: Expected "${expected.paperStock}", got "${actual.paperStock}"`);
+      }
+    }
+
+    // Check bleed
+    if (expected.bleed?.value && actual.bleed?.value) {
+      if (expected.bleed.value === actual.bleed.value) {
+        correctFields++;
+      } else {
+        errors.push(`Bleed: Expected "${expected.bleed.value}", got "${actual.bleed?.value}"`);
+      }
+    }
+
+    // Check finishing (array comparison)
+    if (expected.finishing && actual.finishing) {
+      if (Array.isArray(expected.finishing) && Array.isArray(actual.finishing)) {
+        const expectedSet = new Set(expected.finishing.map((f: string) => f.toLowerCase()));
+        const actualSet = new Set(actual.finishing.map((f: string) => f.toLowerCase()));
+        let matchCount = 0;
+        expectedSet.forEach(item => {
+          if (actualSet.has(item)) matchCount++;
+        });
+        if (matchCount >= expectedSet.size * 0.7) { // 70% match
+          correctFields++;
+        } else {
+          errors.push(`Finishing: Missing or incorrect items`);
+        }
+      }
+    }
+
+    // Check deadline
+    if (expected.deadline && actual.deadline) {
+      if (expected.deadline.toLowerCase().includes(actual.deadline.toLowerCase()) ||
+          actual.deadline.toLowerCase().includes(expected.deadline.toLowerCase())) {
+        correctFields++;
+      }
+    }
 
     const accuracy = (correctFields / totalFields) * 100;
     return { accuracy, errors };
@@ -105,18 +208,38 @@ export default function Evaluator() {
       const testCase = testData[i];
       
       try {
+        console.log(`Running test ${i + 1}/${testData.length}...`);
         const aiSpecs = await runSingleTest(testCase);
-        const { accuracy, errors } = calculateAccuracy(testCase.extractedSpecs, aiSpecs);
         
+        if (aiSpecs) {
+          const { accuracy, errors } = calculateAccuracy(testCase.extractedSpecs, aiSpecs);
+          
+          results.push({
+            emailContent: testCase.emailContent,
+            expectedSpecs: testCase.extractedSpecs,
+            aiSpecs,
+            accuracy,
+            errors
+          });
+        } else {
+          // Handle failed parse
+          results.push({
+            emailContent: testCase.emailContent,
+            expectedSpecs: testCase.extractedSpecs,
+            aiSpecs: null,
+            accuracy: 0,
+            errors: ['Failed to parse email - API error']
+          });
+        }
+      } catch (error) {
+        console.error(`Error testing case ${i + 1}:`, error);
         results.push({
           emailContent: testCase.emailContent,
           expectedSpecs: testCase.extractedSpecs,
-          aiSpecs,
-          accuracy,
-          errors
+          aiSpecs: null,
+          accuracy: 0,
+          errors: [`Error: ${error instanceof Error ? error.message : 'Unknown error'}`]
         });
-      } catch (error) {
-        console.error(`Error testing case ${i + 1}:`, error);
       }
     }
 
@@ -227,23 +350,25 @@ export default function Evaluator() {
                   </div>
                 )}
 
-                <details className="mt-2">
-                  <summary className="cursor-pointer text-sm text-blue-600">View Details</summary>
-                  <div className="mt-2 grid grid-cols-2 gap-4 text-xs">
-                    <div>
-                      <p className="font-semibold">Expected:</p>
-                      <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
-                        {JSON.stringify(result.expectedSpecs, null, 2)}
-                      </pre>
+                {result.aiSpecs && (
+                  <details className="mt-2">
+                    <summary className="cursor-pointer text-sm text-blue-600">View Details</summary>
+                    <div className="mt-2 grid grid-cols-2 gap-4 text-xs">
+                      <div>
+                        <p className="font-semibold">Expected:</p>
+                        <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
+                          {JSON.stringify(result.expectedSpecs, null, 2)}
+                        </pre>
+                      </div>
+                      <div>
+                        <p className="font-semibold">AI Output:</p>
+                        <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
+                          {JSON.stringify(result.aiSpecs, null, 2)}
+                        </pre>
+                      </div>
                     </div>
-                    <div>
-                      <p className="font-semibold">AI Output:</p>
-                      <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
-                        {JSON.stringify(result.aiSpecs, null, 2)}
-                      </pre>
-                    </div>
-                  </div>
-                </details>
+                  </details>
+                )}
               </div>
             ))}
           </div>
