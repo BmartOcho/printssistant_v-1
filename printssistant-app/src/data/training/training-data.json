@@ -1,0 +1,524 @@
+[
+  {
+    "emailContent": "Hi Alison,\n\nNice speaking with you. This graphic has not been \"approved\" by ownership quite yet, so I am sending you this file so we can get a proper quote so I can send it in while we wait for the approval. I will send final when we are ready to proof. Shouldn't be any changes, fingers crossed.\n\nPlease see attached! Can you also reply with lead time & days of printing/installation?\n\n===============================\n\nHi – Following up here as it is time sensitive.\n\n \n\nThanks!\n\n================================\n\nHi Daniella,\n\nSorry for the delay - I am working on this and will have it to you by lunch tomorrow.\n\n==================================\n\nHi Daniella,\n\nI have your updated estimate attached. Let me know if you have any questions!\n\n\n==================================\n\nThank you! Lead time please?\n\n=================================\n\nThis will take about two weeks from proof approval.\n\n================================\n\nHi Alison!\n\n \n\nPlease send a proof over for these initial 10 walls – we are putting two of the walls on hold waiting on new floorplans.\n\n \n\nWe probably will have to place two separate orders just so we can make sure we get these installed before our party on 21st. I know there was a problem with the resolution last year so hopefully we don’t have that with this file.\n\n \n\nPlease let me know if you need my help with anything to get this over the finish line.\n\n=======================================\n\nHey Alison!\n\n \n\nThank you for these. Looking at my PDF my text looks clean and sharp , this proof some of the text is coming out fuzzy.\n\n \n\nWe will have to remove page 9 completely; it is super low res looking blown up. We can replace this one once we get floorplans in for the additional two walls we will order.\n\n \n\nThe map and text on page 10 is an AI file so it should be crisp, not sure any ideas?\n\n \n\n============================================\n\nAlison,\n\n \n\nWe resolved all issues with our map on page 9 so that is okay.  We confirmed we will not have our final graphic until Friday.  Are we able to get these installed by our party on the 22nd if we can guarantee these graphics by EOD Friday?  Or is there a rush fee we can pay to secure that guarantee?\n\n \n\nThese graphics are vital to the event but the final graphics will not be ready from the architect until then.\n\n=============================================\n\n\n",
+    "extractedSpecs": {
+      "jobType": "Wall wraps",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 10,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "Need 10 walls wrapped before a party"
+      ],
+      "deadline": "21st, by EOD Friday"
+    }
+  },
+  {
+    "emailContent": "Brad,\n\n \n\nIn addition to the below requested quote,  I am needing to get an additional item printed. \n\n \n\nWe have bag tags, and I’ve attached the graphic file to this email, that need to be printed.  They are designed to be the size of bookmarks, but I am not sure what the weight of the paper needs to be.   It would need to be thicker than regular paper but thinner than card stock.  These will just be stapled to takeout bags, for reference.\n\n \n\n5400 are needed\n\n====================\n\nHi Ashley, \n\n\nYour estimate is ready!\n\nThanks so much for the opportunity to present you with the attached estimate. \n\n======================\n\nHi Brad,\n\n \n\nAs discussed on the phone there was a typo with Harvest, saying Harvey.  Here is the corrected file.\n\n \n\nAlso it looks like I only sent you Shari’s file. Coco’s is included in the attachment\n\n \n\nCorrect count is Shari’s: 4050, Coco’s: 1350\n\n \n\n========================\n\nAshley,\n\nI'll get this back into prepress and we will show another proof.\n\n===============================",
+    "extractedSpecs": {
+      "jobType": "Bag Tags",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 5399,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi Alison,\n\nI have a hot order that dropped in my lap yesterday.\n\nAre you able to soft touch lam (1 side) & gold foil embellish 35 sheets of 13 x 19 by Monday noonish?\n\nThank you,\n\n============================\n\nHi Steven,\n\nCan you send me the art and specs ASAP?\n\n============================\n\nI was going to send you the printed covers.\n\n120# gloss cover...\n\n===========================\n\nI will need to do it turn key - I have to print registration marks for the foil.\n\n===========================\n\nHi Alison,\n\nHere is art for cover. There is a page jump on last page of guts & inside back cover. Can I send you stock with inside cover already printed?\n\nWe are printing on Ricoh 7500.\n\nThank you,\n\n===========================\n\nHi Alison,\n\nCan you print the covers today? If running 1-up, I'll need 65-70 sheets.\n\nYes, it'll be a booklet.\n\nThank you,\n\n\n===============================\n\nHi Steven,\n\nI only have 100# or 130# gloss cover - which do you prefer for this project?\n\n==============================\n\n130# is good.\n\n===============================",
+    "extractedSpecs": {
+      "jobType": "Booklet Cover ",
+      "dimensions": {
+        "width": "19",
+        "height": "13",
+        "unit": "inches"
+      },
+      "quantity": 0,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "130# Gloss Cover",
+      "finishing": [
+        "Soft-touch lamination",
+        "Gold foil sleeking"
+      ],
+      "specialRequirements": [],
+      "deadline": "Monday by noon"
+    }
+  },
+  {
+    "emailContent": "Hi!\n\n \n\nWe are ready to print the Pre-Trip Collateral for the Acoustic 2024 Presidents Club Trip (ACO2501). I have put the link to the files below and listed out the quantities needed for each file. We would like to have these delivered to the Brightspot Office by Wednesday, September 10, 2025. Please let us know if you have any questions. \n\n\n\nPrint-Ready Files: ACO2501 Pre-trip (Print Ready)\n\n\nPre-trip wallet\nQty: 30\n\nAway Card\nQty:  60 sheets \nSingle-sided\nThese should have a perforation down the middle so they can be torn apart.\n\nLuggage Tags\nQty: 120 (4) per winner, per wallet (pre-stuck) (Confirm)\nAcrylic, Double-sided (utilize the same material as Master's Club)\nPlease include the plastic loops\nCan you also include a roll of glue dots for the luggage tags as well?\n\nLetterhead \nQty: 400 sheets\n\nThank you! \n==========================\n\nThanks Jasmine, \n\nThis looks pretty straight forward. I will work on getting them entered and we should have proofs for you tomorrow. No problem on the Sept 10th deadline, that is plenty of time. \n\nThanks so much for the order and have a great rest of your day !!\n\n=========================\n\nHi Jasmine, \n\nQuick question for you. On the luggage tags, I believe when we did those for masters we printed them on a white acrylic. Shortly after we did those, we decided that they worked better printing them on clear acrylic. We recently did that for the FXO2501 luggage tags that we just delivered to Marissa if you want to take a look at a sample of one - I think those work much better when we print them that way. \n\nAlso - side note - we delivered a full box of 4,000 glue dots last week just so you all have some there in inventory for future use (we seem to have trouble remembering to add them to orders, so we just brought you a stock of them, lol) \n\nLet me know if that style will work for you on the luggage tags - we have done quite a few that way and so far I think everyone is pretty happy with them when they are looking for something a little nicer than the usual thinner ones. and we had a lot of negative feedback on printing on white - and I did not like the white acrylic as well myself - it does not print as nicely as the clear acrylic prints :) \n\n=============================\n\nErich,\n\nJumping in for Jasmine! We would actually like these printed on the thinner, more traditional luggage tag. This program unfortunately does not have the budget for the nicer acrylic ones which I did see on Marissa's desk and looked great! \n\nNoted on the glue dots! \n\n=============================\n\nOK, will do, thanks for the update. \n\nHave a great Friday !!\n\n======================\n\nHello!\n\n I am out of office today and will return tomorrow Monday, September 8th. I will not have access to my email during this time. If it's urgent, feel free to reach out to Christie Rogers at christie.rogers@brightspot.email\n\n\n",
+    "extractedSpecs": {
+      "jobType": "Luggage Tags",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 120,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "Acrylic",
+      "finishing": [
+        "Laser cut"
+      ],
+      "specialRequirements": [
+        "Add 4 per travel wallet",
+        "Please include plastic loops to each",
+        "Also include a roll of glue dots for the luggage tags"
+      ],
+      "deadline": "September 10, 2025"
+    }
+  },
+  {
+    "emailContent": "Hello Alison,\n\nWe'd you would like to reprint the attached flyer by this coming Thursday Sept 18, 2025:\nFlyer size: 5.5 in x 8.5 in\nColor: 4/0\nQuantity: 1000\nPaper: 100# House Dull book paper\n\nPlease let me know if you have any question.\n\n===========================\n\nHi ,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213434_Brighter Horizons Academy_IE Fundraising Flyer_1000.pdf:",
+    "extractedSpecs": {
+      "jobType": "Flyers",
+      "dimensions": {
+        "width": "5.5",
+        "height": "8.5",
+        "unit": "inches"
+      },
+      "quantity": 1000,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "100# House Dull Book",
+      "finishing": [],
+      "specialRequirements": [],
+      "deadline": "Thursday, September 18, 2025"
+    }
+  },
+  {
+    "emailContent": "\nProject Name:\nComment: Hi. We have a project for a client to produce some tri-fold brochures and would love to get connected to a rep so we can get an estimate going. Can someone email me so that I can get our creative director looped in, and we can send you all the details? Thanks! -Angie\nAttachment: Attachment\n\nName: Angie Yarbrough\nCompany: Stratistry\nEmail: ayarbrough@stratistry.com\nPhone 2149128716\nTime received Sep 04, 2025 11:44:59\n\n===========================================\n\nGood afternoon Angie,\n\nI am a customer service representative here at Voom Group and would be happy to assist you moving forward.  \n\nPlease feel free to send over specifications and I can provide you with an estimate.\nSincerley,\n\nBrad Salerno\n\n==========================================\n\nHi Brad,\n\nThank you for getting back to me. We have a client for whom we need to print 100 each of 4 different versions of a Tri-fold brochure.  I've attached one of the layouts for reference. The other four versions simply vary by the back panel contact.  Let us know what else you need in order to provide an estimate for this project.\n\nThanks very much,\nAngie\n\n=========================================\n\nHi Angie,\n\nDo you have a paper preference for this?   \nBrad Salerno\n\n================================\n\nBrad,\n\nWe were thinking a paper with a matte finish, no gloss.\n\nThanks!\n-Angie\n\n=====================================\n\nHi Angie, \n\nI put this on 130# Dull Cover.\n\nThank you for the opportunity to bid on this project. Please let me know if you have any questions.\n\nHave a wonderful evening!\n\n=======================================\n\nHi Brad,\n\nWe have budget approval and are ready to proceed with this project.  Since we haven't worked with you all before, what is the next step?\n\nThanks,\nAngie\n\n===========================================\n\nHi Angie,\n\nYour proofs are ready!\nPlease click the following link to review your proof for J213394_Trifold Brochure - V4 proof.pdf:\n\n==========================================\n\nChanges Requested J213394_Trifold Brochure - V1 proof.pdf\nCustomer comment: (Status: change-requested) Please note that this is a tri-fold. So, I'm assuming it will be folded to have the three panels. Please confirm.\n\n\nChanges Requested J213394_Trifold Brochure - V4 proof.pdf\nCustomer comment: (Status: change-requested) Please note that this is a tri-fold. So, I'm assuming it will be folded to have the three panels. Please confirm.\n\n===============================================\n\nHi Angie,\nYes we understand these are tri-folded. Sorry we aren't able to show that on the proofing system.\n\nIf everything else looks good could you please approve each in the software?\n\nThanks you!\n\n=================================================\n\n",
+    "extractedSpecs": {
+      "jobType": "Trifold Brochures - 4 Versions",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 400,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "130# Dull Cover",
+      "finishing": [
+        "Score",
+        "Fold"
+      ],
+      "specialRequirements": [],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hello Voom Group,\n\n \n\nMy name is Stephanie Adelstein and I’m an associate creative director for a healthcare marketing agency. While my address below is PA based, I am local to Dallas. I am relatively new to the area and am looking for a local printer that I can partner with for many of our printing needs.\n\nWe have an upcoming project consisting of two wirebound booklets with a glued pocket on the last page and a visual aid that will be printed up on sturdy cardstock and scored down the center.\n\nPlease see the google drive link below to access the associated art files to reference the attached spec sheet.\n\nI apologize for requesting at the very end of the day on Friday. If you could return a quote to me sometime on Monday, I would very much appreciate it. Please feel free to call or text me with any outstanding questions. \n\n \n\nThanks so much!\n\n=============================\n\nHi Stephanie, \n\nThanks so much for reaching out about your project. I think this should be a good fit for us. I do have some questions about the cover, you list the carrier size as 17.75 x 22, but in the drawing, you show the back cover size as 9.25 x 22. I think we will be able to make this work for you if I an seeing it right - I think the 17.75 x 22\" size is taking into consideration the front cover and the back cover together as one sheet - but I think the front cover can print separate. We can confirm details, but from the art you furnished, I think we can accommodate this the way you have it set up. \n\nWe will get to work on the pricing and either myself or one of our customer service team will reach out with quotes later today. \n\nThanks again for the opportunity, we look forward to working with you. \n\n\n================================\n\nHi Brad,\n\n \n\nThank you so much for sending this over so quickly. I did see an error on my end where I didn’t update the text in the carrier size section to accurately reflect the diagram. My apologies for the oversight! We often do these saddle stitched where the front and back cover are connected, but this time we will be wire binding. For this document, the cover will be 8.5 x 11 (printing 4/4) while the back cover page with the pocket should be 9.25 x 22in (printing 4/0) when flat. I noticed that you have it priced as 2 cover pages (printing 4/0) with a pocket size so I just wanted to flag in case it affected the overall cost and effort.\n\n \n\nLet me know if the quote will remain the same or if the edit changes anything.\n\n \n\nThanks again,\n\n \n\nStephanie\n\n=====================================\n\n",
+    "extractedSpecs": {
+      "jobType": "Wire bound Booklets - 2 versions",
+      "dimensions": {
+        "width": "8.5",
+        "height": "11",
+        "unit": "inches"
+      },
+      "quantity": -1,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [
+        "Wire binding",
+        "trim",
+        "score",
+        "glue tabs"
+      ],
+      "specialRequirements": [],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi Brad!\n\nHope your day is going well! Could we place an order of 50 2\"x2\" stickers please.\n\nLet me know if there is any questions!\n\n===============================\n\nHi Chole,\n\nWhat would these be affixing to?\n\n===================================\n\nPaper boxes, so regular stickers are perfect!\n\n\n=====================================\n\nThank you! - I'll get these going\nBrad Salerno\n\n===================================\n\nHi Chloe,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213379_Spike Stickers Proof.pdf:\n\n====================================\n\nGood Morning,\n\nI have attached the new image for the stickers because I did not realize the top of his ears were cut off, so could you update this for the stickers please!\n\nAlso, on the last proof, I am not sure if it was just on my end, but the black outlines on the words was only on the \"M\", but needs to be around all of the letters.\n\nLet me know if there is anything else you need!\n\nChloe Phan\n\n========================================\n\nHi Chloe,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213379_Spike Stickers Proof copy 1.pdf:\n\n========================================\n\n\nProof Rejected J213379_Spike Stickers Proof copy 1.pdf\nCustomer Comment: (Status: rejected) The black outline is dropping off all the letters and exclamation point\n\n======================================\n\nHi Chloe,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213379_Spike Stickers Proof copy 2.pdf:\n\n======================================\n\n\nChanges Requested J213379_Spike Stickers Proof copy 2.pdf\nCustomer comment: (Status: change-requested) What are the blue lines inside the letters?\n\n====================================\n\n\nHi Chloe,\n\nThose lines are PDF artifacts and will not print.     We verified this by printing one out on a laser printer.  \n\nIf everything else is OK , can you please approve the proof at the link below.\n\nThank you!\n\n\n====================================\n\nI just approved them! Is there any way we could get those done ASAP? ",
+    "extractedSpecs": {
+      "jobType": "Stickers",
+      "dimensions": {
+        "width": "2",
+        "height": "2",
+        "unit": "inches"
+      },
+      "quantity": 50,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "These are sticking to paper boxes"
+      ],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Please quote: \nArt attached:  The top left version is the chosen art. \n\nQty : Dallas - 58, Miami - 250 Name badges\nThin PVC\n4/0\nRounded corners with Variable data\nSlot punched on top center\nNeed in hands Monday 9/22 (58), need another 250 in FL by 10/1\n\n=================================\n\nSorry these are 4”x3\"\n\n===================================\n\nHi Traci, \n\n\nYour estimate is ready!\n\nThanks so much for the opportunity to present you with the attached estimate. \n\n======================================\n\nTraci,\n\nAlso there are only 43 names on the Excel file is this correct?\n\n=====================================\n\nThere should be 15 the remaining are just printed with no names. Sorry tiny detail. \n\nThank you,\n\n\n========================================\n\nHi Brad/Allison, \n\nThere has been one change in the spreadsheet.  If there is any want we can change the one: \nJacqueline Byrd has now changed companies, so her new company is Richlen Management Group, LLC. I highlighted this in the attached updated spreadsheet.\n\nIf not, please add this to the list and she will get 2.\n\nPlease confirm you saw this change.  \n\n\n==========================================\n\nHi Traci,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213462_PVC Name Badges copy 1.pdf:\n\n===========================================\n\n\nChanges Requested J213462_PVC Name Badges copy 1.pdf\nCustomer comment: (Status: change-requested) Remember these need to be slot punched at the top. So I think the names need to be brought done a bit to accommodate? Maybe the top of the letter in the first name should align with the first horizontal white line on the left side of the badge. Under the first pix top left.\n\n=========================================\n\nHi Traci,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213462_PVC Name Badges copy 2.pdf:\n\n\n========================================\n\nHi Traci,\n\nWe received your proof approval!\nYour order is now headed to production. We will update you once your order is complete. If you need to make any changes or update your shipping or delivery information please let us know",
+    "extractedSpecs": {
+      "jobType": "Name Badges",
+      "dimensions": {
+        "width": "3",
+        "height": "4",
+        "unit": "inches"
+      },
+      "quantity": 308,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "PVC",
+      "finishing": [
+        "Round corner",
+        "slot punch"
+      ],
+      "specialRequirements": [
+        "Variable data",
+        "Dallas quantity - 58",
+        "Miami quantity - 250"
+      ],
+      "deadline": "Monday - 9/22/2025"
+    }
+  },
+  {
+    "emailContent": "Hello Alison,\n\nWe would like to make Three (3) Stand banners for the attached file (same as last time). We would like to have them ready by this coming Thurdsay along with the flyers!\n\nPlease let me know if you have any question.\n\nBest regards,\nMohammad Mubarak\n\n============================\n\nThanks for your order Mohammad,  \n\nWe got your order !\n\nYour order J213452 is now in process. If you have any questions or need to make any changes, you can reach me by replying to this email or by phone at 972-424-8887.\n\n==============================\n\nHi ,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213452 Retractable Banner.pdf:\n\n",
+    "extractedSpecs": {
+      "jobType": "Banner Stands - 3 versions",
+      "dimensions": {
+        "width": "33",
+        "height": "84",
+        "unit": "inches"
+      },
+      "quantity": 3,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "Banner material",
+      "finishing": [],
+      "specialRequirements": [
+        "Have ready along with flyers"
+      ],
+      "deadline": "Thursday"
+    }
+  },
+  {
+    "emailContent": "I was looking to get a quote and timeline on a project.  \n\nWe have produced books for our customer there in Plano.  These books were to be shrink-wrapped but were Ar-packed wrapped in error.  \n\nHere are the details on the books\n# of books – 3,220\n\n# of cartons 322\n\n# of pallets 9\n\nTotal weight – 11,800 lbs.\n\n\nThe project would be to unpack and unwrap the books.  The ar-pack plastic curled some of the book's corners on( ~ 25%).  Stack on skids 10 layers high with cardboard slip sheet between layers. Allow the weight of the books and possible add a skid topper and band the skid overnight to flatten the edge over before poly wrap.\n\nThen the books would be shrink wrapped , re-carton and returned.  The end customer would like this done as soon as possible , so please provide a timeline.\n\nAttached are photos of the books\n\nIf you can manage the transportation pick up and return, please include.\nthanks\n\n=======================\n\nFYI the pick-up and delivery for these books is at....\n\n2700 Summit Ave # 100 Plano, TX 750744\n\n=========================\n\nHi Dwayne!\n\nI have your estimate attached for this project - let me know if you have any questions.\n\n\n=========================\n\nThanks Alison, I will review and get back to you ASAP.  Can you confirm your timeline assuming we give the OK today?\nthanks\n",
+    "extractedSpecs": {
+      "jobType": "Book re-packaging",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 3220,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0",
+        "unit": "inches"
+      },
+      "resolution": "",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "Un-package books",
+        "Flatten books before shrink wrap",
+        "Shrink wrap each book and re-pallet"
+      ],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi Brad, \n\nI’d like to introduce you to Leanne.  I was copied on an email (below) where she is starting to work on a postcard mailer for about 700 addresses. \n\nLeanne, Brad works at The Voom Group which is off Plano Pkwy in Plano. I thought he might like to quote out the postcard mailer you have coming up soon. He has a background in direct mail, and The Voom Group has its own mail-house on site … so they would be a great option for some of our future print mail needs!\n\nBrad, are you able to respond to Leanne’s questions below and give some suggestions and pricing. Again, the quote for the postcards would be a quantity of about 700, but the client usually likes to have 50-100 “overs. They have a nonprofit CRID.\n\nThanks!\n\nSincerely,\n\nJulie Holmer\n\n========================\n\nHi Leanne ,\n\nThe 5.5\" X 8.5\" size works well on our equipment.\n\nI quoted a total of 800 cards (700 mailing + 100 extras).\n\nPlease let me know if you have any questions.\n \nYour estimate is ready!\n\nThanks so much for the opportunity to present you with the attached estimate. \n\nBrad Salerno\n\n==========================\n\nGreat! We're ready to go on this one. Here is the nonprofit postage permit info, and I have attached the artwork. What else do you need from us to move forward to get this ?\n\nFor return address::\nHeritage Farmstead Museum\n1900 W. 15th Street\nPlano, TX 75024\n\nNonprofit authorization number is: 742482\nCRID is: 3443027\n\nDo you deliver to USPS or do we need to do that part?\n\n\n=============================\n\nI'm sorry Brad! I need more coffee this morning. Do you also print the addresses on the card? If so we need to send you the mailing list.\n\nPlease confirm if this part was included in your quote. Our hope is to have a turnkey option where everything is printed and goes straight to USPS, but if we need to pick them up and take to USPS we can.\n\nI'm copying Stephanie who has the mailing list if you're able to do that part for us.\n\nAnd, please note: This is a nonprofit so there shouldn't be any sales tax added.\n\nThank you!\n\n=============================\n\nGood morning Leanne,\n\nThe quote does include addressing and taking to USPS.\nBrad Salerno\n\n=============================\n\nGreat! Let’s move forward. Stephanie, can you send Brad the mailing list we used for friends of the farmstead? Will send to the same addresses for this post card. If you have trouble locating it, let me know. \n\nLeanne Libby\n\n=============================\n\nOf course, see attached! Leanne, please confirm this is the correct file!\n\n\nStephanie Spino\n\n==============================\n\n",
+    "extractedSpecs": {
+      "jobType": "Postcard - Print and Mail",
+      "dimensions": {
+        "width": "5.5",
+        "height": "8.5",
+        "unit": "inches"
+      },
+      "quantity": 800,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [
+        "Trim",
+        "mailing"
+      ],
+      "specialRequirements": [
+        "Mail non-profit"
+      ],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi!\n\n \n\nWe are ready to print the Pre-Trip Collateral for the Acoustic 2024 Presidents Club Trip (ACO2501). I have put the link to the files below and listed out the quantities needed for each file. We would like to have these delivered to the Brightspot Office by Wednesday, September 10, 2025. Please let us know if you have any questions. \n\n\n\nPrint-Ready Files: ACO2501 Pre-trip (Print Ready)\n\n\nPre-trip wallet\nQty: 30\n\nAway Card\nQty:  60 sheets \nSingle-sided\nThese should have a perforation down the middle so they can be torn apart.\n\nLuggage Tags\nQty: 120 (4) per winner, per wallet (pre-stuck) (Confirm)\nAcrylic, Double-sided (utilize the same material as Master's Club)\nPlease include the plastic loops\nCan you also include a roll of glue dots for the luggage tags as well?\n\nLetterhead \nQty: 400 sheets\n\nThank you! \n==========================\n\nThanks Jasmine, \n\nThis looks pretty straight forward. I will work on getting them entered and we should have proofs for you tomorrow. No problem on the Sept 10th deadline, that is plenty of time. \n\nThanks so much for the order and have a great rest of your day !!\n\n=========================\n\nHi Jasmine, \n\nQuick question for you. On the luggage tags, I believe when we did those for masters we printed them on a white acrylic. Shortly after we did those, we decided that they worked better printing them on clear acrylic. We recently did that for the FXO2501 luggage tags that we just delivered to Marissa if you want to take a look at a sample of one - I think those work much better when we print them that way. \n\nAlso - side note - we delivered a full box of 4,000 glue dots last week just so you all have some there in inventory for future use (we seem to have trouble remembering to add them to orders, so we just brought you a stock of them, lol) \n\nLet me know if that style will work for you on the luggage tags - we have done quite a few that way and so far I think everyone is pretty happy with them when they are looking for something a little nicer than the usual thinner ones. and we had a lot of negative feedback on printing on white - and I did not like the white acrylic as well myself - it does not print as nicely as the clear acrylic prints :) \n\n=============================\n\nErich,\n\nJumping in for Jasmine! We would actually like these printed on the thinner, more traditional luggage tag. This program unfortunately does not have the budget for the nicer acrylic ones which I did see on Marissa's desk and looked great! \n\nNoted on the glue dots! \n\n=============================\n\nOK, will do, thanks for the update. \n\nHave a great Friday !!\n\n======================\n\nHello!\n\n I am out of office today and will return tomorrow Monday, September 8th. I will not have access to my email during this time. If it's urgent, feel free to reach out to Christie Rogers at christie.rogers@brightspot.email\n\n\n",
+    "extractedSpecs": {
+      "jobType": "Away Card",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 60,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "These should have perforation down the middle so they can be torn apart."
+      ],
+      "deadline": "September 10, 2025"
+    }
+  },
+  {
+    "emailContent": "Hello, \n\nPlease quote the following job: \n\nEwing On The Go - Ewing Subaru\n  4cp + Silk UV / 4cp + Silk UV - Bleeds\n  Stock:  80# Gloss Cover\n  Bindery:  Cut to 7.25\" x 8.5\" Flat size, 1 Score Line and \n  Fold to 3.625\" x 8.50\" Finished Size\n\nQty:  250 / 500 / 750 / 1,000\n\nI am attaching the draft ART for your review. \n\n===============================================\n\nHi Alison, \n\nCan you add a page and show the same, but using 100# Gloss Cover?  \n\nThere is a different piece they got done thru their main graphics/marketing company and I think it is using 100#.  \n\n===========================================\n\ney Warren,\n\nI have the updated estimate attached.\n\n\n===========================\n\nAllison, \n\nThanks for the revision. \n\nLet's do 500 of these Bi-Fold brochure - Subaru Version on 100# Gloss Cover.  \n\nWe are working on doing the same brochure for the other companies depending on how this turns out.  No Pressure :)\n\nPrint ART is attached. \n\n===========================\n\n",
+    "extractedSpecs": {
+      "jobType": "Bi-Fold Brochure",
+      "dimensions": {
+        "width": "3.625",
+        "height": "8.50",
+        "unit": "inches"
+      },
+      "quantity": 500,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "100# Gloss Cover",
+      "finishing": [],
+      "specialRequirements": [],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi there,\n\nI hope you are doing well! I’d like to place an order for signage for our upcoming Oklahoma Take Steps event with the Crohn’s & Colitis Foundation. Below are the details:\n\nEvent Date: 10/04/2025\nDeadline for Pickup: 09/30/2025\n\nSignage Needed:\n\n120”X40”, Banner (120x40- Take Steps Sponsorship Banner)\n(3) total 24”X18”, coroplast yard sign (File: Honoree Signs)\n(8) total 24”X18”, coroplast yard sign (File: Sponsor Logo Signs)\n(2) total 24”X18”, coroplast yard sign (File: Sponsor Text Signs)\nPlease confirm pricing, proof turnaround time, and estimated pickup schedule. Attached are the PDFs to print.\n\n \n\nThank you for your partnership in helping us create a great experience for our participants! Please let me know if you have any questions.\n\n===========================\n\nHi Haley, \n\n\nMy name is Brad Salerno and I can help you moving forward.\n\nProofing usually takes us 24 hours for a project like this and turn time would be in the neighborhood of 5-7 business days after proof approval, so meeting your 9/30 pick up date should not be an issue.\n\nPlease find an estimate for the items attached.  If you would like to proceed with the artwork you attached please let me know and I can get this moving.\n\nThank you!\n\n===============================\n\n",
+    "extractedSpecs": {
+      "jobType": "Various Signage",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 14,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "Banner, Coroplast",
+      "finishing": [
+        "CNC Finish Trim"
+      ],
+      "specialRequirements": [
+        "120\" x 40\" Banner",
+        "(3) total 24\" x 18\" Coroplast Yard Sign (File: Honoree Signs)",
+        "(8) total 24\" x 18\" coroplast yard signs (File: Sponsor Logo Signs)",
+        "(2) Total 24\" x 18\", coroplast yard sign (File: Sponsor Text Signs)"
+      ],
+      "deadline": "9/30/2025"
+    }
+  },
+  {
+    "emailContent": "Hello Voom Group,\nI have a new request for labels for Tropical irrigation.\n\nCan I please receive two sets of labels:  one set of 4x2 peel and stick and on set of magnetics. \n\n\n\nPlease include:\n\n \n\nThe QR code\nItem - Part number\nItem – picture\nItem – QTY\nNo - customer logo\n\nThank you,\nNathalee Medrano\n\n==============================\n\nGood morning Nathalee!\n\nThanks so much for sending this over. I will work on getting a proof over to you.\n\n\n===============================\n\nHi Nathalee,\n\nYour proof is ready!\nPlease click the following link to review your proof for J213326-01_Tropical Irrigation SRMs.pdf:\n\n===================================\n\n",
+    "extractedSpecs": {
+      "jobType": "Labels - Two (2) sets",
+      "dimensions": {
+        "width": "4",
+        "height": "2",
+        "unit": "inches"
+      },
+      "quantity": 0,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "One set of peel-and-stick",
+        "One set of magnet"
+      ],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi Brad,\n\nI hope you're doing well. I would like to print and mail another round of postcards. We will use the same design (attached for reference) and mail specs as we used in August. I've attached the new mail file for the month. \n\nFor your planning purposes, we typically send a version of this postcard every month. I will typically send the mail file during the second week of the month, and the file usually includes 500-600 records\n\n==================\n\nHi Nicole, \n\n\nYour estimate is ready!\n\nThanks so much for the opportunity to present you with the attached estimate. \n\n===================\n\n",
+    "extractedSpecs": {
+      "jobType": "Postcards - Print and Mail",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 600,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "Use previous artwork",
+        "Mail list will consist of 500-600 records",
+        "This is recurring"
+      ],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hello Voom Group,\n\n \n\nI need to order 3 product panels using the attached artwork.\n\n \n\nMDO Boards\nQty: 3\nDimensions: 26.375” wide by 16.125” tall.\nMaxMetal Boards\nQty: 3\nDimensions: 26.375” wide by 16.125” tall.\nArtwork: please see attached PDF file\n\nIs it feasible to have these ready by end of next week?\n\n\n============================\n\n\n",
+    "extractedSpecs": {
+      "jobType": "Product Panels",
+      "dimensions": {
+        "width": "26.375",
+        "height": "16.125",
+        "unit": "inches"
+      },
+      "quantity": 3,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "Max Metal",
+      "finishing": [
+        "CNC Route"
+      ],
+      "specialRequirements": [
+        "Please see attached PDF file"
+      ],
+      "deadline": "End of next week"
+    }
+  },
+  {
+    "emailContent": "Hey! You did a similar project for us a while back, where we produced a double-sided monitor topper with a small trip of tape along the bottom. Attached is what the artwork would look like and also a pic of the topper you did for us last time.\n\n \n\nI am needing to get some rough estimates/pricing breaks…maybe 15, 25, 35, 50, and 75? Or if it is easier to just send me a range…that works too!\n\n==========================\n\nHi Quinton!\n\nYou got it - I have your estimate attached :)\n\n==========================\n\nAlrighty…we are ready to order these. We need a total of 150, which is more than what I had estimated them wanting. 😊 Attached is a shipping list and artwork.\n\n \n\nWe’ll need the double-sided tape strip at the bottom of the front (where the brown dirt is). Haha. Also…any chance you could include a small picture in each shipment that shows how to attach? This will the first time these guys have ever utilized something like this, so showing them where/how to attach to the top of their computer monitor would be a HUGE help!\n\n \n\nThey can all ship with our FedEx Account\n\n=============================\n\nHi Quinton!\n\nYou got it - I am sure we can put together something. I will get these going!!!\n\n===========================\n\n",
+    "extractedSpecs": {
+      "jobType": "Monitor topper",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 150,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [
+        "add double side tape",
+        "add small picture to clarify what is shipped"
+      ],
+      "deadline": ""
+    }
+  },
+  {
+    "emailContent": "Hi!\n\n \n\nWe are ready to print the Pre-Trip Collateral for the Acoustic 2024 Presidents Club Trip (ACO2501). I have put the link to the files below and listed out the quantities needed for each file. We would like to have these delivered to the Brightspot Office by Wednesday, September 10, 2025. Please let us know if you have any questions. \n\n\n\nPrint-Ready Files: ACO2501 Pre-trip (Print Ready)\n\n\nPre-trip wallet\nQty: 30\n\nAway Card\nQty:  60 sheets \nSingle-sided\nThese should have a perforation down the middle so they can be torn apart.\n\nLuggage Tags\nQty: 120 (4) per winner, per wallet (pre-stuck) (Confirm)\nAcrylic, Double-sided (utilize the same material as Master's Club)\nPlease include the plastic loops\nCan you also include a roll of glue dots for the luggage tags as well?\n\nLetterhead \nQty: 400 sheets\n\nThank you! \n==========================\n\nThanks Jasmine, \n\nThis looks pretty straight forward. I will work on getting them entered and we should have proofs for you tomorrow. No problem on the Sept 10th deadline, that is plenty of time. \n\nThanks so much for the order and have a great rest of your day !!\n\n=========================\n\nHi Jasmine, \n\nQuick question for you. On the luggage tags, I believe when we did those for masters we printed them on a white acrylic. Shortly after we did those, we decided that they worked better printing them on clear acrylic. We recently did that for the FXO2501 luggage tags that we just delivered to Marissa if you want to take a look at a sample of one - I think those work much better when we print them that way. \n\nAlso - side note - we delivered a full box of 4,000 glue dots last week just so you all have some there in inventory for future use (we seem to have trouble remembering to add them to orders, so we just brought you a stock of them, lol) \n\nLet me know if that style will work for you on the luggage tags - we have done quite a few that way and so far I think everyone is pretty happy with them when they are looking for something a little nicer than the usual thinner ones. and we had a lot of negative feedback on printing on white - and I did not like the white acrylic as well myself - it does not print as nicely as the clear acrylic prints :) \n\n=============================\n\nErich,\n\nJumping in for Jasmine! We would actually like these printed on the thinner, more traditional luggage tag. This program unfortunately does not have the budget for the nicer acrylic ones which I did see on Marissa's desk and looked great! \n\nNoted on the glue dots! \n\n=============================\n\nOK, will do, thanks for the update. \n\nHave a great Friday !!\n\n======================\n\nHello!\n\n I am out of office today and will return tomorrow Monday, September 8th. I will not have access to my email during this time. If it's urgent, feel free to reach out to Christie Rogers at christie.rogers@brightspot.email\n\n\n",
+    "extractedSpecs": {
+      "jobType": "Letterhead",
+      "dimensions": {
+        "width": "",
+        "height": "",
+        "unit": "inches"
+      },
+      "quantity": 400,
+      "colorMode": "CMYK",
+      "bleed": {
+        "value": "0.125",
+        "unit": "inches"
+      },
+      "resolution": "300",
+      "fileFormat": "PDF",
+      "paperStock": "",
+      "finishing": [],
+      "specialRequirements": [],
+      "deadline": "September 10, 2025"
+    }
+  }
+]

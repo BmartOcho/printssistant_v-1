@@ -11,7 +11,7 @@ export default function SpecParser() {
   const handleParse = async () => {
     setLoading(true);
     try {
-      const response = await fetch('/api/parse', {
+      const response = await fetch('/api/parse-enhanced', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ content, type: 'email' }),
