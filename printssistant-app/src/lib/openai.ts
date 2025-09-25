@@ -1,11 +1,11 @@
 import OpenAI from 'openai';
 
-console.log('API Key loaded:', process.env.OPENAI_API_KEY ? `${process.env.OPENAI_API_KEY.substring(0, 20)}...` : 'NOT FOUND');
-
 if (!process.env.OPENAI_API_KEY) {
   throw new Error('Missing OPENAI_API_KEY environment variable');
 }
 
+// Ensure this file is only imported on the server
+// Next.js App Router server-only context is implied for API routes
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });

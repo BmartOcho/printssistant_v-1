@@ -56,12 +56,12 @@ export default function Evaluator() {
         }),
       });
       
-      if (!response.ok) {
-        console.error('API response not OK:', response.status);
-        return null;
-      }
-      
       const data = await response.json();
+
+      // Handle mulit-job response - use first job for testing
+      const specs = data.specs.jobs ? data.specs.jobs[0] : data.specs;
+      return specs;
+    
       
       if (data.error) {
         console.error('API returned error:', data.error);
