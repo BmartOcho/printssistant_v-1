@@ -5,6 +5,8 @@ import SpecParser from './components/SpecParser';
 import DataPrep from './components/DataPrep';
 import Evaluator from './components/Evaluator';
 import ModelComparison from './components/ModelComparison';
+import JobProcessor from '@/components/JobProcessor';
+
 
 export default function Home() {
   const [mode, setMode] = useState<'parser' | 'dataprep' | 'evaluator' | 'comparison'>('parser');
@@ -15,7 +17,10 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-center mb-8">
           PrintPrep AI Assistant
         </h1>
-        
+
+          <div className="min=h=screen bg=gray=250">
+            <JobProcessor />
+          </div>
         <div className="flex justify-center gap-4 mb-8 flex-wrap">
           <button
             onClick={() => setMode('parser')}

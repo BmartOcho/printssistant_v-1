@@ -11,10 +11,10 @@
       "quantity": 30,
       "colorMode": "Not specified",
       "bleed": {
-        "value": "Not specified",
+        "value": "",
         "unit": "inches"
       },
-      "resolution": "Not specified",
+      "resolution": "",
       "fileFormat": "Not specified",
       "paperStock": "",
       "finishing": [],
@@ -34,10 +34,10 @@
       "quantity": 1,
       "colorMode": "Not specified",
       "bleed": {
-        "value": "Not specified",
+        "value": "",
         "unit": "Not specified"
       },
-      "resolution": "Not specified",
+      "resolution": "",
       "fileFormat": "Not specified",
       "paperStock": "white vinyl",
       "finishing": ["installation"],
@@ -57,10 +57,10 @@
       "quantity": 600,
       "colorMode": "Not specified",
       "bleed": {
-        "value": "Not specified",
+        "value": "",
         "unit": "Not specified"
       },
-      "resolution": "Not specified",
+      "resolution": "",
       "fileFormat": "PDF",
       "paperStock": "15 mil PVC",
       "finishing": ["slot punches"],
@@ -83,7 +83,7 @@
         "value": "Yes",
         "unit": "Not specified"
       },
-      "resolution": "Not specified",
+      "resolution": "",
       "fileFormat": "Not specified",
       "paperStock": "100# Gloss Cover",
       "finishing": [
@@ -108,10 +108,10 @@
       "quantity": 1500,
       "colorMode": "Not specified",
       "bleed": {
-        "value": "Not specified",
+        "value": "",
         "unit": "Not specified"
       },
-      "resolution": "Not specified",
+      "resolution": "",
       "fileFormat": "Not specified",
       "paperStock": "semi-gloss thin pages",
       "finishing": ["center-stapled"],

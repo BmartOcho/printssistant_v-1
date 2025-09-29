@@ -27,9 +27,9 @@ export default function DataPrep() {
     jobType: '',
     dimensions: { width: '', height: '', unit: 'inches' },
     quantity: 0,
-    colorMode: 'CMYK',
-    bleed: { value: '0.125', unit: 'inches' },
-    resolution: '300',
+    colorMode: 'Not Specified',
+    bleed: { value: '', unit: 'inches' },
+    resolution: '',
     fileFormat: 'PDF',
     paperStock: '',
     finishing: [],
@@ -69,9 +69,9 @@ export default function DataPrep() {
       jobType: '',
       dimensions: { width: '', height: '', unit: 'inches' },
       quantity: 0,
-      colorMode: 'CMYK',
-      bleed: { value: '0.125', unit: 'inches' },
-      resolution: '300',
+      colorMode: 'Not Specified',
+      bleed: { value: '', unit: 'inches' },
+      resolution: '',
       fileFormat: 'PDF',
       paperStock: '',
       finishing: [],
@@ -160,6 +160,7 @@ export default function DataPrep() {
                   dimensions: {...currentAnnotation.dimensions, unit: e.target.value}
                 })}
               >
+                <option value="Not Specified">Not Specified</option>
                 <option value="inches">inches</option>
                 <option value="mm">mm</option>
                 <option value="cm">cm</option>
@@ -184,6 +185,7 @@ export default function DataPrep() {
               value={currentAnnotation.colorMode}
               onChange={(e) => setCurrentAnnotation({...currentAnnotation, colorMode: e.target.value})}
             >
+              <option value="Not specified">Not Specified</option>
               <option value="CMYK">CMYK</option>
               <option value="RGB">RGB</option>
               <option value="Pantone">Pantone</option>
@@ -214,6 +216,7 @@ export default function DataPrep() {
                   bleed: {...currentAnnotation.bleed, unit: e.target.value}
                 })}
               >
+                <option value="Not Specified">Not Specified</option>
                 <option value="inches">inches</option>
                 <option value="mm">mm</option>
               </select>
